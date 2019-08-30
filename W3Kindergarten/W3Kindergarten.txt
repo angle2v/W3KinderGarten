@@ -1,0 +1,38 @@
+2019/8/22~25
+ * 사용자
+	- 테이블/DTO/CRUD(controller, service, jsp, html)
+ * 게시판
+ 	- 테이블/DTO/CRUD(controller, service, jsp, html)
+ * 댓글
+ 	- 테이블/DTO/CRUD(controller, service, jsp, html)
+ * index.html
+ 	- 구성 완료( + 구글 검색 엔진)
+ * 네이버/카카오 로그인 API 연결
+ * HTML 몇개 Sample Page 구성
+
+
+2019/8/26
+ * Quiz
+ 	- 테이블: 문제/점수/
+ 		- 사용자 테이블에 score, Rank 컬럼 추가 필요
+ 		- Quiz 테이블의 문제를 맞출 때마다 or 합계를 사용자 테이블 DB에 저장
+ 		- UI에 Score, Rank 표시
+ * Log4J
+ 	- 웹사이트 접속 유저 확인(세션)
+ 
+* Session/Cookie
+ 	- 웹사이트 접속 성공/실패 확인(쿠키) - 이유까지 나오도록
+
+
+
+
+
+
+
+
+
+
+
+
+
+

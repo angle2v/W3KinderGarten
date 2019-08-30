@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<title>Board.HTML</title>
+<script language="javascript">
+function checkValid() {
+	var f = window.document.board;
+	
+	if(!f.title.value){
+		alert("제목을 입력해주세요.");
+		return false;
+	}else if(!f.content.value){
+		alert("내용을 작성해주세요.")
+		return false;
+	}
+	
+	return true;
+}
+</script>
+</head>
+<body>
+	<form name="board" action="control" method="post" onSubmit="return checkValid()">
+		<input type="hidden" name="command" value="wboard">
+			<table align="center" cellpadding="5" cellspacing="2" width="600" border="1">
+			    <tr>
+			        <td width="1220" height="20" colspan="2" bgcolor="#336699">
+			            <p align="center">
+			            	<font color="white" size="3">
+			            		<b>게시판</b>
+			            	</font>
+			            </p>
+			        </td>
+			    </tr>
+		
+			    <tr>
+			        <td width="150" height="20">
+			            <p align="right">
+			            	<b>
+			            		<span style="font-size:9pt;">제 목</span>
+			            	</b>
+			            </p>
+			        </td>
+			        <td width="450" height="20" >
+			        	<b>
+			        		<span style="font-size:9pt;">
+								<input type=text name="title" size="50">
+							</span>
+						</b>
+					</td>
+			    </tr>
+			    
+			    <tr>
+			        <td width="150" height="20">
+			            <p align="right">
+			            	<b>
+			            		<span style="font-size:9pt;">내 용 </span>
+			            	</b>
+			            </p>
+			        </td>
+			        <td width="450" height="20">
+			        	<b>
+			        		<span style="font-size:9pt;">
+								<textarea name="content" cols="50" rows="10"></textarea>
+							</span>
+						</b>
+					</td>
+			    </tr>
+			    
+			    <tr>
+			        <td width="150" height="20">
+			            <p align="right"><b><span style="font-size:9pt;">&nbsp;</span></b></p>
+			        </td>
+			        <td width="450" height="20">
+			        	<b>
+			        		<span style="font-size:9pt;">
+			        			<input type=submit value=글쓰기> 
+			        			<input type=reset value=다시쓰기>
+			        		</span>
+			        	</b>
+			        </td>
+			    </tr>
+			</table>
+		
+	</form>
+</body>
+</html>

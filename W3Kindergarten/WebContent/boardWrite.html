@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/66253f70e5.js"></script>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<title>Board.HTML</title>
+<script language="javascript">
+function checkValid() {
+	var f = window.document.board;
+	
+	if(!f.title.value){
+		alert("제목을 입력해주세요.");
+		return false;
+	}else if(!f.content.value){
+		alert("내용을 작성해주세요.")
+		return false;
+	}
+	
+	return true;
+}
+</script>
+</head>
+<body>
+	<form name="board" action="control" method="post" onSubmit="return checkValid()">
+		<input type="hidden" name="command" value="boardWrite">
+			<table style="font-size: 30px;padding: 10px;  width:1519px;height:620px; background-color: #c0c0c0; color:black;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);font-family: 'Playfair Display SC', serif; "  cellpadding="5" cellspacing="2" width="600" border="1">
+			    <tr>
+			        <td width="1220" height="40px" colspan="2" bgcolor="#c0c0c0" style="text-align: center;">
+			            <p align="center">
+			            		<b>게시판</b>
+			            </p>
+			        </td>
+			    </tr>
+		
+			    <tr>
+			        <td width="150" height="40">
+			            <p align="center">
+			            	<b>
+			            		<span >제 목</span>
+			            	</b>
+			            </p>
+			        </td>
+			        <td width="450" height="40" >
+			        	<b>
+			        		<span>
+								<input type=text name="title" size="65" >
+							</span>
+						</b>
+					</td>
+			    </tr>
+			    
+			    <tr>
+			        <td width="150" height="40">
+			            <p align="center">
+			            	<b>
+			            		<span>내 용 </span>
+			            	</b>
+			            </p>
+			        </td>
+			        <td width="450" height="20">
+			        	<b>
+			        		<span>
+								<textarea name="content" cols="60" rows="13"></textarea>
+							</span>
+						</b>
+					</td>
+			    </tr>
+			    
+			    <tr>
+			        <td width="150" height="20">
+			            <p align="right"><b><span>&nbsp;</span></b></p>
+			        </td>
+			        <td width="450" height="20">
+			        	<b>
+			        		<span>
+			        			<input type=submit value=글쓰기 style="margin-left: 10px;"> 
+			        			<input type=reset value=다시쓰기 style="margin-left: 10px;">
+			        		</span>
+			        	</b>
+			        </td>
+			    </tr>
+			</table>
+	</form>
+	<a class="navsidehom"  href="main.jsp" style="visibility: visible; float: right; margin-right: 20px">
+			<i class ="fas fa-home" style="font-size: 30px; margin-left: 25px; margin-top: 10px;"></i>
+			</a>
+</body>
+</html>

@@ -1,0 +1,437 @@
+.body {
+	
+}
+
+* {
+	text-decoration: none;
+}
+
+.topmain {
+	height: 40px;
+	background-color: white;
+	opacity: 1;
+	width: 100%;
+}
+
+.updatepage {
+	width: 100%;
+	height: 559px;
+	background-color: #00915A;
+}
+/* 	width: 50%;
+	padding: 3%;
+	float: left;
+	align: center;
+	text-align: center;
+	box-sizing: inherit;
+	color: #333;
+	font-size: 14px; */
+.w3kindergarten {
+	font-size: 33px;
+	color: #555555;
+	position: relative;
+	text-align: left;
+	float: left;
+	cursor: pointer;
+	letter-spacing: 3px;
+	display: block;
+	margin-top: 20px;
+	padding-left: 5px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.w3kindergarten:hover {
+	color: #00915A;
+	text-decoration: none;
+	font-family: 'Luckiest Guy', cursive;
+	letter-spacing: 3px;
+}
+
+.dotcom {
+	color: #00915A;
+	box-sizing: inherit;
+	font-size: 33px;
+	letter-spacing: 3px;
+	line-height: 1;
+	text-align: center !important;
+	position: inherit;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.subtext {
+	position: relative;
+	font-size: 16px;
+	text-align: right;
+	width: 630px;
+	float: right;
+	background-color: white;
+	text-transform: uppercase;
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 4px;
+	padding-top: 10px;
+	padding-right: 6px;
+	padding-bottom: 5px;
+}
+
+.navbackground {
+	position: relative;
+	background-color: #00915A;
+	width: 100%;
+	height: 60px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+
+.nav {
+	height: inherit;
+	width: 100%;
+	display: inline-flex;
+	background-color: #00915A;
+	font-family: 'Actor', sans-serif;
+	position: absolute;
+	opacity: 1;
+	overflow: hidden;
+}
+
+
+.googlesearchback {
+	background-color: #00915A;
+	width: 50%;
+	height: 50px;
+	position: relative;
+}
+
+.nav-tutorials {
+	font-size: 19px;
+	color: white;
+	border: none;
+	background: inherit;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 3px;
+	font-family: 'Taviraj', serif;
+}
+
+.nav-references {
+	font-size: 19px;
+	color: white;
+	border: none;
+	background: inherit;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 3px;
+	font-family: 'Taviraj', serif;
+}
+
+.nav-examples {
+	font-size: 19px;
+	color: white;
+	border: none;
+	background: inherit;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 3px;
+	font-family: 'Taviraj', serif;
+}
+
+.nav-exercises {
+	font-size: 19px;
+	color: white;
+	border: none;
+	background: inherit;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 3px;
+	font-family: 'Taviraj', serif;
+}
+
+.nav-board {
+	font-size: 19px;
+	color: white;
+	border: none;
+	background: inherit;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 3px;
+	font-family: 'Taviraj', serif;
+}
+
+.nav-tutorials:hover, .nav-references:hover, .nav-examples:hover,
+	.nav-exercises:hover, .nav-board:hover {
+	color: black;
+	background-color: white;
+	font-size: 19px;
+	font-weight: 500;
+	height: 100%;
+}
+
+.sidenav{
+	height: 2400px;
+	width:230px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	background-color: #fff!important;
+	padding-top: 14px;
+	margin-bottom: -155px;
+	box-sizing: inherit;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	font-family: 'Taviraj', serif;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	outline: none;
+}
+
+
+.sidenav b {
+	padding: 17px 8px 17px 16px;
+	text-decoration: none;
+	font-size: 19px;
+	color: black;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	outline: none;
+}
+
+/* On mouse-over */
+
+.sidenav a:hover {
+	color: black;
+	background-color: #ccc!important;
+}
+
+/* Main content */
+.main1 {
+	background-color: white;
+	margin-left:  280px;
+	width: 1260px;
+	height: 493px;
+	position: relative;
+}
+
+.center-1left {
+	width: 630px;
+	height: 500px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	color: #555555;
+	font-size: 14px;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.center-1right {
+	width: 630px;
+	background-color: white;
+	margin-left: 0px;
+	float: right;
+}
+
+.container-1right-1 {
+	width: 567px;
+	height: 435px;
+	background-color: #f1f1f1 !important;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 30px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+}
+
+.container-1right-2 {
+	width: 552px;
+	height: 256px;
+	backgound-color: #fff;
+	margin-right: 60x;
+}
+
+.tryitbtn {
+	background-color: #4CAF50;
+	color: #fff;
+	width: 157px;
+	height: 40px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 23px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.tryitbtn:hover {
+	text-decoration: none;
+	background-color: #4CAF50;
+	color: #fff;
+	width: 157px;
+	height: 40px;
+	padding: 12px;
+	padding-left: 23px;
+	margin-top: 15px;
+	font-size: 15px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+}
+
+.w3-button-w3-dark-gry {
+	background-color: #616161;
+	color: #fff;
+	padding: 15px;
+	margin: 5px;
+}
+
+.w3-button-w3-dark-gry:hover {
+	background-color: #ccc;
+	color: #000;
+	padding: 15px;
+	margin: 5px;
+	text-decoration: none;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+}
+
+.main2 {
+	background-color: #f1f1f1;
+	margin-left: 233px;
+	width: 1319px;
+	height: 550px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.main2-1 {
+	background-color: #f1f1f1;
+	margin-left: 233px;
+	width: 1319px;
+	height: 450px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.center-2right {
+	width: 630px;
+	height: 400px;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	color: #555555;
+	font-size: 14px;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.center-2left {
+	width: 630px;
+	background-color: #f1f1f1;
+	margin-left: 0px;
+	float: left;
+}
+
+.container-2left-1 {
+	width: 567px;
+	height: 416px;
+	background-color: #f1f1f1;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.container-2left-2 {
+	width: 500px;
+	height: 256px;
+	backgound-color: white;
+	margin-left: 40x;
+}
+
+.main3 {
+	background-color: #616161;
+	margin-left: 230px;
+	width: 1319px;
+	height: 620px;
+	position: relative;
+}
+
+.main3-container-left1 {
+	width: 567px;
+	height: 226px;
+	background-color: white;
+	float: left;
+	margin: 45px;
+	text-align: center;
+}
+
+.main3-container-right1 {
+	width: 567px;
+	height: 226px;
+	background-color: white;
+	float: right;
+	margin: 45px;
+	text-align: center;
+}
+
+.main3-container-left2 {
+	width: 567px;
+	height: 226px;
+	background-color: white;
+	float: left;
+	margin: 45px;
+	text-align: center;
+}
+
+.main3-container-right2 {
+	width: 567px;
+	height: 226px;
+	background-color: white;
+	float: right;
+	margin: 45px;
+	text-align: center;
+}
+
+.w3-button {
+	background-color: #616161;
+	color: white;
+	border: none;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+/* Optional: Style the caret down icon */
+.null {
+	padding-bottom: 100%;
+}
