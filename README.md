@@ -17,5 +17,7 @@
 ### - The project aims to copy as much as possible from the web site w3shools.com and add additional technology as an option.
 
 # - Preview project
+<img src="preview img/w3kindergarten img1.png">
+<img src="preview img/w3kindergarten img2.png">
 
 
