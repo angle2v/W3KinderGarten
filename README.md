@@ -1,6 +1,6 @@
 # - Project Name : W3KinderGarten
 
-### - [presentation](https://docs.google.com/presentation/d/1DPjuR0FlE3QvEWu9QTWynwJPrqCSUGMU/edit#slide=id.p1)
+### - Watch a [presentation](https://docs.google.com/presentation/d/1DPjuR0FlE3QvEWu9QTWynwJPrqCSUGMU/edit#slide=id.p1)
 
 # - Team Members
 
