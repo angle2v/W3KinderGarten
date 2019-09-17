@@ -12,8 +12,14 @@
 ### - Go to [w3schools](www.w3schools.com)
 
 # Used Programming Language
-### - [ Java / JDBC / SQL / ApacheTomcat / HTML / CSS / JSP / JS /  GoogleAPI ]
+### - [ Java / SQL / HTML / CSS / JS ]
+# DataRepository
+### - JDBC
+# Server Util
+### -  ApacheTomcat /  JSP 
 
+# ReferenceAPI
+### - GoogleSearchAPI
 # Content
 ### - The project aims to copy as much as possible from the web site w3shools.com and add additional technology as an option.
 
