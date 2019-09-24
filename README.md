@@ -9,7 +9,7 @@
 ### Inchul Ji [GitHub](https://github.com/inchul-ji)
 
 # Copy Model
-### - Go to [w3schools](www.w3schools.com)
+### - Go to [www.w3schools.com](www.w3schools.com)
 
 # Used Programming Language
 ### - [ Java / SQL / HTML / CSS / JS ]
